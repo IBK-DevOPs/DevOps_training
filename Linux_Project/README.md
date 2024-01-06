@@ -222,7 +222,7 @@ To create new achive *tar -cvf newachive.tar /home/ibkcode*
 This is uded to modify a file or directory read, write and execute permission. The command suppoer many options -v -s -c
 Syntax chmod  permission 'filename' 
 ibkcode@Sceptre:~$ chmod 777 ibk_folder
-* Run syntax for options -c,-f 
+ Run syntax for options -c,-f 
 ibkcode@Sceptre:~$ chmod 777 ibk_folder
 ibkcode@Sceptre:~$ ls
 2nd-Repository  Dan_file  Devop  Eo  Linux  Music  devop_folder  file  ibk_folder  music  new  new_file  sqlite_commands.sh
@@ -232,11 +232,13 @@ ibkcode@Sceptre:~$ chmod -c 777 ibk_folder
 ibkcode@Sceptre:~$ chmod -f 777 ibk_folder
 ibkcode@Sceptre:~$ 
 
+
 ### CHOWN COMMAND
  Chown Is used to change ownership of a file directory or link.
 Enter this syntax chown [owner] file
 ibkcode@Sceptre:~$ chown ibkcode Linux
 ibkcode@Sceptre:~$ 
+
 ![Alt text](Image/chown_command.png)
 
 ### JOBS COMMAND
@@ -395,7 +397,7 @@ SU user or to switch user is used to run program as a different users
 Enter this syntax su [options] [username [arguments]]
 ibkcode@Sceptre:~/ibk_folder$
 ibkcode@Sceptre:~/ibk_folder$ su ibkcode
-
+![Alt text](Image/su_command.png)
 
 ### HTOP COMMAND
 CThis command line system monitor htop is an interactive system monitor process viewer and process manager.
@@ -432,6 +434,7 @@ ibkcode    234  0.0  0.0   5244  3400 pts/0    T    00:39   0:01 htop
 ibkcode    236  0.0  0.0   5244  3488 pts/0    T    00:54   0:00 htop -C
 clearcccibkcode    237  0.0  0.0   7476  3172 pts/0    R+   01:03   0:00 ps aux
 ibkcode@Sceptre:~$
+
 ![Alt text](<Image/ps command.png>)
 
 ## CONCLUSION
