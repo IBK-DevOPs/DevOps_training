@@ -91,10 +91,11 @@ ls is a Linux shell command that lists directory contents of files and directori
 bkcode@Sceptre:~$ ls
 2nd-Repository  Devop  Eo  Linux  Music  devop_folder  ibk_folder  music  sqlite_commands.sh
 ibkcode@Sceptre:~$
+
 ![Alt text](<Image/Ls 1.png>)
-![Alt text](<Image/Ls 2.png>)
-![Alt text](image/Ls%203%20png.png)
-![Alt text](image/Ls%204.png)
+![Alt text](<Image/Ls 2.png>
+![Alt text](<Image/Ls 3 png.png>)
+![Alt text](<Image/Ls 4.png>)
 
 ### CAT COMMAND
 The name cat stands for concatenate, which means to join or link together.The cat command in Linux is a versatile tool that can be used to perform various file-related operations, such as viewing, creating, copying, merging, and manipulating files.
@@ -456,3 +457,6 @@ Linux has evolved into one of the most reliable computer ecosystems on the plane
 
 
 
+
+
+[def]: <Image/cd command.png>
