@@ -84,6 +84,7 @@ bkcode@Sceptre:~/Linux$ cd -
 /home/ibkcode
 ibkcode@Sceptre:~$ cd --
 ibkcode@Sceptre:~$
+
 ![Alt text](<Image/cd command.png>)
 
 ### LS COMMAND
