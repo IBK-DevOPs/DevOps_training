@@ -75,7 +75,7 @@ ibk![![Alt text](<Image/pwd command.png>)
 ### CD COMMAND
 The cd command in Linux is used to change the current working directory in the terminal. cd-- moves one directory up and cd- moved to previos directory
 
-ibkcode@Sceptre:~$ cd Linux
+ibkcode@Sceptre:$ cd Linux
 ibkcode@Sceptre:~/Linux$ 
 ibkcode@Sceptre:~/Linux$ cd -
 /home/ibkcode
@@ -89,7 +89,7 @@ ibkcode@Sceptre:~$
 
 ### LS COMMAND
 ls is a Linux shell command that lists directory contents of files and directories.It provides valuable information about files, There is some options with ls like -R -a -lh.
-bkcode@Sceptre:~$ ls
+ibkcode@Sceptre:~$ ls
 2nd-Repository  Devop  Eo  Linux  Music  devop_folder  ibk_folder  music  sqlite_commands.sh
 ibkcode@Sceptre:~$
 
@@ -100,7 +100,7 @@ ibkcode@Sceptre:~$
 
 ### CAT COMMAND
 The name cat stands for concatenate, which means to join or link together.The cat command in Linux is a versatile tool that can be used to perform various file-related operations, such as viewing, creating, copying, merging, and manipulating files.
-Type belpw command. To view a sigle file cat file_name
+Type below command. To view a sigle file cat file_name
 *cat [options] filename(s)*
 *cat DevOps_training*
 ![Alt text](<Image/Cat, cp,mv .png>)
@@ -221,8 +221,8 @@ To create new achive *tar -cvf newachive.tar /home/ibkcode*
 ### CHMOD COMMAND
 This is uded to modify a file or directory read, write and execute permission. The command suppoer many options -v -s -c
 Syntax chmod  permission 'filename' 
-ibkcode@Sceptre:~$ chmod 777 ibk_folder
- Run syntax for options -c,-f 
+ibkcode@Sceptre:~$ chmod 777 ibk_folder 
+Run syntax for options -c,-f 
 ibkcode@Sceptre:~$ chmod 777 ibk_folder
 ibkcode@Sceptre:~$ ls
 2nd-Repository  Dan_file  Devop  Eo  Linux  Music  devop_folder  file  ibk_folder  music  new  new_file  sqlite_commands.sh
@@ -233,12 +233,11 @@ ibkcode@Sceptre:~$ chmod -f 777 ibk_folder
 ibkcode@Sceptre:~$ 
 
 
-### CHOWN COMMAND
- Chown Is used to change ownership of a file directory or link.
+### CHOWN COMMAN  
+Chown Is used to change ownership of a file directory or link.
 Enter this syntax chown [owner] file
 ibkcode@Sceptre:~$ chown ibkcode Linux
-ibkcode@Sceptre:~$ 
-
+bkcode@Sceptre:~$ 
 ![Alt text](Image/chown_command.png)
 
 ### JOBS COMMAND
