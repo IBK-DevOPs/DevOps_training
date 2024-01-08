@@ -74,17 +74,6 @@ ibk![![Alt text](<Image/pwd command.png>)
 
 ### CD COMMAND
 The cd command in Linux is used to change the current working directory in the terminal. cd-- moves one directory up and cd- moved to previos directory
-
-ibkcode@Sceptre:$ cd Linux
-ibkcode@Sceptre:~/Linux$ 
-ibkcode@Sceptre:~/Linux$ cd -
-/home/ibkcode
-ibkcode@Sceptre:~$ 
-bkcode@Sceptre:~/Linux$ cd -
-/home/ibkcode
-ibkcode@Sceptre:~$ cd --
-ibkcode@Sceptre:~$
-
 ![Alt text](<Image/cd command.png>)
 
 ### LS COMMAND
