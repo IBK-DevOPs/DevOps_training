@@ -236,7 +236,7 @@ ibkcode@Sceptre:~$
 ### CHOWN COMMAN  
 Chown Is used to change ownership of a file directory or link.
 Enter this syntax chown [owner] file
-ibkcode@Sceptre:~$ chown ibkcode Linux
+ibkcode@Sceptre:~$ chown ibkcode Linuxit 
 bkcode@Sceptre:~$ 
 ![Alt text](Image/chown_command.png)
 
