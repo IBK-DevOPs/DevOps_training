@@ -89,9 +89,6 @@ ibkcode@Sceptre:~$
 
 ### LS COMMAND
 ls is a Linux shell command that lists directory contents of files and directories.It provides valuable information about files, There is some options with ls like -R -a -lh.
-ibkcode@Sceptre:~$ ls
-2nd-Repository  Devop  Eo  Linux  Music  devop_folder  ibk_folder  music  sqlite_commands.sh
-ibkcode@Sceptre:~$
 
 ![Alt text](<Image/Ls 1.png>)
 ![Alt text](<Image/Ls 2.png>
@@ -221,23 +218,11 @@ To create new achive *tar -cvf newachive.tar /home/ibkcode*
 ### CHMOD COMMAND
 This is uded to modify a file or directory read, write and execute permission. The command suppoer many options -v -s -c
 Syntax chmod  permission 'filename' 
-ibkcode@Sceptre:~$ chmod 777 ibk_folder 
-Run syntax for options -c,-f 
-ibkcode@Sceptre:~$ chmod 777 ibk_folder
-ibkcode@Sceptre:~$ ls
-2nd-Repository  Dan_file  Devop  Eo  Linux  Music  devop_folder  file  ibk_folder  music  new  new_file  sqlite_commands.sh
-ibkcode@Sceptre:~$ pwd
-/home/ibkcode
-ibkcode@Sceptre:~$ chmod -c 777 ibk_folder
-ibkcode@Sceptre:~$ chmod -f 777 ibk_folder
-ibkcode@Sceptre:~$ 
 
 
-### CHOWN COMMAN  
+### CHOWN COMMAND
 Chown Is used to change ownership of a file directory or link.
 Enter this syntax chown [owner] file
-ibkcode@Sceptre:~$ chown ibkcode Linuxit 
-bkcode@Sceptre:~$ 
 ![Alt text](Image/chown_command.png)
 
 ### JOBS COMMAND
@@ -393,9 +378,6 @@ The unalias command removes the definition for each alias name specified, or rem
 
 ### SU COMMAND
 SU user or to switch user is used to run program as a different users
-Enter this syntax su [options] [username [arguments]]
-ibkcode@Sceptre:~/ibk_folder$
-ibkcode@Sceptre:~/ibk_folder$ su ibkcode
 ![Alt text](Image/su_command.png)
 
 ### HTOP COMMAND
@@ -408,32 +390,6 @@ ibkcode@Sceptre:~$ htop -C
 ### PS COMMAND
 The ps command in Linux is used to list the currently running processes and their PIDs along with some other information, which depends on different options  
 Enter syntax ps option
-
-[5]+  Stopped                 htop -C
-ibkcode@Sceptre:~$ ps aux
-USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
-root         1  0.0  0.0   1804  1192 ?        Sl   Jan05   0:02 /init
-root         7  0.0  0.0   1812    88 ?        Ss   Jan05   0:00 /init
-root         8  0.0  0.0   1812    96 ?        S    Jan05   0:00 /init
-root         9  0.0  0.0   1812    88 ?        Ss   Jan05   0:00 /init
-root        10  0.0  0.0   1812    96 ?        S    Jan05   0:00 /init
-ibkcode     11  0.0  0.1   6172  5116 pts/0    Ss   Jan05   0:01 -bash
-root        12  0.0  0.0   1812    88 ?        Ss   Jan05   0:00 /init
-ibkcode     13  0.0  0.1   6172  4972 pts/1    Ss+  Jan05   0:00 -bash
-root        14  0.0  0.0   1812    96 ?        S    Jan05   0:00 /init
-root        15  0.0  0.0   1812    88 ?        Ss   Jan05   0:00 /init
-ibkcode     16  0.0  0.1   6172  5060 pts/2    Ss+  Jan05   0:00 -bash
-root        17  0.0  0.0   1812    96 ?        S    Jan05   0:00 /init
-ibkcode     18  0.0  0.1   6172  5104 pts/3    Ss+  Jan05   0:00 -bash
-ibkcode    191  0.0  0.0   7776  3672 pts/0    T    Jan05   0:00 top
-ibkcode    201  0.0  0.0   5680  3760 pts/0    T    Jan05   0:00 man ls
-ibkcode    210  0.0  0.0   3588  2400 pts/0    T    Jan05   0:00 pager
-ibkcode    232  0.0  0.2  19420 11436 pts/0    T    00:18   0:00 vi experiment
-ibkcode    234  0.0  0.0   5244  3400 pts/0    T    00:39   0:01 htop
-ibkcode    236  0.0  0.0   5244  3488 pts/0    T    00:54   0:00 htop -C
-clearcccibkcode    237  0.0  0.0   7476  3172 pts/0    R+   01:03   0:00 ps aux
-ibkcode@Sceptre:~$
-
 ![Alt text](<Image/ps command.png>)
 
 ## CONCLUSION
