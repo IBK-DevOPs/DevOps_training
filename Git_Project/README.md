@@ -18,7 +18,7 @@ A lot of word were used to describe GIT, they are -:
 •	Version Control System
 •	Distributed Version Control System
 
-Now we can tale these one by one 
+Now we can take these one by one 
 Control system-: This means that git is a content tracker, git can be used to content. In this case git is mostly used to store code.
 Version Control system-: The code stored in git keep changing as more code is added. Many developers can add code in parallel. Version control system help keeps the history of what changes.
 Distributed Version Control System-: Git has remote repository which is stored in a server and a local computer of each developer. This means that the code is both available on the server as well as developer’s computer
@@ -75,7 +75,7 @@ Follow below order
 For creating repo
 ![create repo](./images/create%20repo2.png)
 
-From above screenshot, we see have been able to create working directory and initialized git repository. With this we can proceed and make our first commit in git.
+From above screenshot, we have been able to create working directory and initialized git repository. With this we can proceed and make our first commit in git.
 
 Commit means saving any changes made to my file, changes like add, delete and file or text modification
 When we make a commit, Git takes a snapshot of the current state of our repository and save a copy in git folder inside our current working directory
@@ -182,7 +182,7 @@ Markdown syntax is commonly used for creating document, README files, forum post
 1.	Heading: To create headings, we use the hash (#) symbol, e.g.
 #  Heading 1 
 ## Heading 2
-### Headi
+### Heading 3
 ![Alt text](images/Heading.png)
 
 2. Emphasis: To create emphasis, the asterisks (*) or underscore (_) is used e.g.
